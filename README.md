@@ -1,6 +1,6 @@
 # react-render-vs-portal
 ## Measurement method
-Mount [React components](https://github.com/neetbox/react-render-vs-portal/blob/master/src/component.tsx) with a short text to 100 of `<div>` elements by [`React.render`](https://github.com/neetbox/react-render-vs-portal/blob/master/src/render.tsx) and [`React.createPortal`](https://github.com/neetbox/react-render-vs-portal/blob/master/src/portal.tsx) and measure its time of mounting by Chorome's performance tool.
+Mount [React components](https://github.com/neetbox/react-render-vs-portal/blob/master/src/component.tsx) that contain a short text to 100 of `<div>` elements by [`React.render`](https://github.com/neetbox/react-render-vs-portal/blob/master/src/render.tsx) and [`React.createPortal`](https://github.com/neetbox/react-render-vs-portal/blob/master/src/portal.tsx) and measure its time of mounting by Chorome's performance tool.
 
 ## Result
 ### ReactDOM.createPortal: 102.5ms
