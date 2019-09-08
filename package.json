@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "parcel build ./src/portal.html ./src/render.html",
+    "watch": "parcel serve ./src/portal.html ./src/render.html"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "parcel": "^1.12.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "typescript": "^3.6.2"
+  }
+}
